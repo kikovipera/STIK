@@ -1,5 +1,5 @@
-Composer install
-set database credentials inside .env file
-php artisan migrate
-php artisan serve
+Composer install\
+set database credentials inside .env file\
+php artisan migrate\
+php artisan serve\
 
