@@ -23,7 +23,10 @@ class HomeController extends Controller
         return view('app',$data);
     }
 
-
+    /**
+     * Save record and return to home page.
+     *
+     */
     public function create(Request $request){
 
         $create = Register::create($request->all());

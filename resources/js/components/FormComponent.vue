@@ -1,7 +1,7 @@
 <template>
 
     <div class="card mb-5">
-        <div class="card-header">Add more records</div>
+        <div class="card-header">Add  record</div>
     <form action="home" method="post">
         <div class="col-12 mt-4">
         <div class="col-md-6 float-left">

@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12" v-if="pagination.total != '0'">
         <nav aria-label="Naviagtion" class="mt-2 float-right">
             <ul class="pagination" >
                 <li class="page-item" :class="pagination.prev_page_url !=null ? '':'disabled'">

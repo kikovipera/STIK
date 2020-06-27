@@ -1,6 +1,7 @@
 <template>
-    <div class="card">
-    <table class="table table-hover">
+    <div class="card"  v-if="records.length>0">
+
+    <table class="table table-hover"  >
         <thead>
         <tr>
             <th>#</th>
@@ -11,14 +12,13 @@
         </tr>
         </thead>
         <tbody>
-        <tr v-if="records" v-for="item in records">
+        <tr v-for="item in records">
             <td> {{ item.id }} </td>
             <td> {{ item.first_name }} </td>
             <td> {{ item.last_name }} </td>
             <td> {{ item.phone }}</td>
             <td> {{ item.date_birth }}</td>
         </tr>
-        <tr v-else> NO Data </tr>
         </tbody>
     </table>
     </div>
